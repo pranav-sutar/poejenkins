@@ -32,8 +32,7 @@ pipeline {
                             # Install dependencies
                             npm install
 
-                            # Restart the application
-                            serve -s build
+                            
                         """
                     }
                 }
