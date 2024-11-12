@@ -33,7 +33,7 @@ pipeline {
                             npm install
 
                             # Restart the application
-                            pm2 restart poejenkins
+                            serve -s build
                         """
                     }
                 }
